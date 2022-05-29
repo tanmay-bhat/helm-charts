@@ -5,13 +5,13 @@
 #### Steps to Add repo :
 
 1. Add the helm repo with command :
-  `helm repo add myrepo https://tanmay-bhat.github.io/helm-chart/`
+  `helm repo add tanmay https://tanmay-bhat.github.io/helm-charts/`
 
 2. Verify chart exists in the repo :
   `helm search repo chart_name`
 
 ### 1. uptime kuma helm chart: 
-   `helm install uptime myrepo/uptime-kuma`
+   `helm install uptime tanmay/uptime-kuma`
 
 ### 2. kube-ops-view helm chart: 
-   `helm install kubeopsview myrepo/kube-ops-view`
+   `helm install kubeopsview tanmay/kube-ops-view`
