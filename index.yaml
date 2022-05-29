@@ -1,9 +1,19 @@
 apiVersion: v1
 entries:
+  fluent-operator:
+  - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2022-05-29T14:25:22.012652+05:30"
+    description: A Helm chart for Kubernetes
+    digest: e9c7d9d3601fdf691710f6ebc365ee38c2b338e433ef91edcc3b69a09d9b2798
+    name: fluent-operator
+    urls:
+    - https://tanmay-bhat.github.io/helm-charts/fluent-operator-1.0.2.tgz
+    version: 0.1.0
   kube-ops-view:
   - apiVersion: v2
     appVersion: "20.4"
-    created: "2021-10-17T22:07:23.0409594+05:30"
+    created: "2022-05-29T14:25:22.015645+05:30"
     description: A Helm chart kubeops, a read only kubernetes dashboard
     digest: 9a7df6e5643b06608f1647e452eca9ef747800509554d174fe1d8882c5e284ff
     home: https://codeberg.org/hjacobs/kube-ops-view
@@ -12,12 +22,12 @@ entries:
     - name: Tanmay Bhat
     name: kube-ops-view
     urls:
-    - https://tanmay-bhat.github.io/helm-chart/kube-ops-view-0.1.2.tgz
+    - https://tanmay-bhat.github.io/helm-charts/kube-ops-view-0.1.2.tgz
     version: 0.1.2
   uptime-kuma:
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2021-10-17T22:07:23.0429755+05:30"
+    created: "2022-05-29T14:25:22.016317+05:30"
     description: A Helm chart for uptime-kuma, uptime monitor tool
     digest: b1ee9c292bdc80abb1c7ecaa985900e8597005247a7af6a94d4675e3521aa273
     home: https://github.com/louislam/uptime-kuma
@@ -27,6 +37,6 @@ entries:
     name: uptime-kuma
     type: application
     urls:
-    - https://tanmay-bhat.github.io/helm-chart/uptime-kuma-0.1.0.tgz
+    - https://tanmay-bhat.github.io/helm-charts/uptime-kuma-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-17T22:07:23.0369833+05:30"
+generated: "2022-05-29T14:25:22.004452+05:30"
